@@ -1,0 +1,5 @@
+{
+  "name": "ReviewLens AI",
+  "description": "A production-ready Product Review Summarizer and Aspect Extractor using Gemini AI.",
+  "requestFramePermissions": []
+}
