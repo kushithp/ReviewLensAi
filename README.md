@@ -1,8 +1,8 @@
-# ReviewLens AI 🔍
+# ReviewLens AI
 
 ReviewLens AI is a powerful tool designed to help consumers make informed purchasing decisions by summarizing product reviews from popular e-commerce platforms like **Amazon** and **Flipkart**.
 
-## ✨ Features
+## Features
 - **URL Analysis**: Paste a product link from Amazon or Flipkart and get an instant summary.
 - **Robust Scraping**: Uses multiple fallback selectors to extract reviews even as site layouts change.
 - **Raw Text Analysis**: Paste a block of reviews manually.
@@ -18,7 +18,7 @@ ReviewLens AI is a powerful tool designed to help consumers make informed purcha
 - **AI**: Google Gemini 3 Flash via `@google/genai`.
 - **Icons**: Lucide React.
 
-## 🚀 Getting Started
+## 🚀Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -61,7 +61,7 @@ ReviewLens AI is a powerful tool designed to help consumers make informed purcha
    ```
    Note: Set `VITE_API_URL=http://localhost:5000/api` in your `.env` for separate mode.
 
-## 📂 Project Structure
+##  Project Structure
 ```
 ├── server.ts           # Express backend + Vite middleware
 ├── backend/
@@ -76,11 +76,4 @@ ReviewLens AI is a powerful tool designed to help consumers make informed purcha
 └── README.md           # You are here
 ```
 
-## 🧪 Mock Data
-If no API key is provided, the app automatically falls back to high-quality mock data so you can still test the UI and flow.
 
-## 📜 License
-MIT License. Feel free to use this for your own projects!
-
----
-Built with ❤️ using Google AI Studio.
